@@ -23,7 +23,6 @@ Quices in this specialization are based on the [Chinook Database](https://www.sq
 - [NoSQL keeps rising, but relational databases still dominate big data (TechRepublic)](http://www.techrepublic.com/article/nosql-keeps-rising-but-relational-databases-still-dominate-big-data/)
 - [Data Science Skills: Is NoSQL Better than SQL? (SiliconRepublic)](https://www.siliconrepublic.com/careers/data-science-skills-sql)
 
-### 2. Data Wrangling, Analysis and AB Testing with SQL
 2.1. SQL for R
 - [SQLDF Package](https://cran.r-project.org/web/packages/sqldf/index.html)
 - [Documentation](https://cran.r-project.org/web/packages/sqldf/sqldf.pdf)
@@ -40,5 +39,14 @@ Quices in this specialization are based on the [Chinook Database](https://www.sq
 2.4. SQL for Python
 - [Python-SQL Package Documentation](https://pypi.python.org/pypi/python-sql)
 
+3.1. SQL and Python
+- [Thinking in SQL vs Thinking in Python](https://mode.com/blog/learning-python-sql/)
+- [Difference Between Union and Union All - Optimal Performance Comparison](https://blog.sqlauthority.com/2009/03/11/sql-server-difference-between-union-vs-union-all-optimal-performance-comparison/)
+
+### 2. Data Wrangling, Analysis and AB Testing with SQL
+
 ### 3. Distributed Computing with Spark SQL
 ### 4. SQL for Data Science Capstone Project
+
+## Extras
+[Preformat Code](https://www.poorsql.com/)
