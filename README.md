@@ -43,6 +43,10 @@ Quices in this specialization are based on the [Chinook Database](https://www.sq
 - [Thinking in SQL vs Thinking in Python](https://mode.com/blog/learning-python-sql/)
 - [Difference Between Union and Union All - Optimal Performance Comparison](https://blog.sqlauthority.com/2009/03/11/sql-server-difference-between-union-vs-union-all-optimal-performance-comparison/)
 
+4.1. Additional SQL Resources to Explore
+- [SQL Authority Puzzles](https://blog.sqlauthority.com/category/sql-puzzle/)
+- [SQLZOO](https://sqlzoo.net/)
+
 ### 2. Data Wrangling, Analysis and AB Testing with SQL
 
 ### 3. Distributed Computing with Spark SQL
