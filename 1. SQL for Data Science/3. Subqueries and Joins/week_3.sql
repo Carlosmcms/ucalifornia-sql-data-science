@@ -21,7 +21,7 @@ FROM Customers
 ORDER BY CustomerName;
 
 -- Cartesian (CROSS) JOIN example
-SELECt ProductName, UnitPrice, CompanyName
+SELECT ProductName, UnitPrice, CompanyName
 FROM Suppliers
   CROSS JOIN Products;
 
@@ -83,25 +83,3 @@ UNION
 SELECT column_n
 FROM table2
 
-
-
--- Quiz Testing
-SELECT AlbumID, Title
-FROM Albums
-WHERE ArtistID = (
-    SELECT ArtistID
-    FROM Artists
-    WHERE Name = 'Audioslave'
-)
-
--- AlbumID = 10, 11, 271
-
-SELECT R.AlbumID, R.Title, T.COUNT(*), T.SUM(UnitPrice)
-FROM Tracks T LEFT JOIN Albums R
-    ON T.AlbumID = R.AlbumID
-    WHERE R.ArtistID = (
-        SELECT ArtistID
-        FROM Artists
-        WHERE Name = 'AudioSlave'
-    )
-GROUP BY R.AlbumID
