@@ -3,7 +3,7 @@
 ## Questions
 1. Pull a list of customer ids with the customer's full name and address, along with combining their city and country together. Be sure to make a space in between these two and make it UPPER CASE (e.g. LOS ANGELES USA). What is the city and country result for CustomerID 16?
 
-```
+```SQL
 SELECT
   CustomerID
   , FirstName || ' ' || LastName AS FullName
@@ -17,7 +17,7 @@ WHERE CustomerID = 16
 
 2. Create new employee user id by combining the first 4 letters of the employee's first name with the first 2 letters of the employee's last name. Make the new field lower case and pull each individual step. What is the final result for Robert King?
 
-```
+```SQL
   EmployeeId
   , FirstName
   , LastName
@@ -35,7 +35,7 @@ WHERE FirstName = 'Robert'
 
 3. Show a list of employees who have worked for the company for 15 oro more years using the current date function. Sort by lastname ascending. What is the lastname of the last person on the list returned?
 
-```
+```SQL
 SELECT
   LastName
   , STRFTIME('%Y', HireDate)
@@ -51,7 +51,7 @@ ORDER BY LastName ASC
 
 4. Profiling the Customers table. Are there any columns with null values?
 
-```
+```SQL
 SELECT *
 FROM Customers
 WHERE 
@@ -67,7 +67,7 @@ WHERE
 
 5. Find the cities with the most customers and rank in descending order. Which cities have 2 customers?
 
-```
+```SQL
 SELECT
   City
   , COUNT(CustomerID) AS customers_quantity
@@ -81,7 +81,7 @@ ORDER BY customers_quantity DESC
 
 6. Create a new customer invoice id by combining customer first and last name and invoice id.
 
-```
+```SQL
 SELECT
   C.FirstName
   , C.LastName

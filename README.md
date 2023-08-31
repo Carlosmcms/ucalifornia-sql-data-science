@@ -49,8 +49,20 @@ Quices in this specialization are based on the [Chinook Database](https://www.sq
 
 ### 2. Data Wrangling, Analysis and AB Testing with SQL
 
+1.1. Course Introduction
+- [Connecting to Mode Analytics](https://d3c33hcgiwev3.cloudfront.net/rVHlpgvsQGGrp5Dl7D5zgQ_b7c2ae781f0a438fb9c09fd4416cbaf1_Connecting-to-Mode-Analytics---Updated.pdf?Expires=1693440000&Signature=EuYRNBnVXNcfGY8tLGF-LKLU-9o-1H5UtttpQXPzFMbuWCzuhObcCOXY~DcHYLa5BpQhxgDeS561KbnvUgZnPgtkYIFz5ab9AIdQf3NJrWZi~MdwlAfY4sNy~Bn~chCy5TACeEYQ3LiewSs4zN6ZPz5XLkhUgkmLODvLcMM4jUc_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+
 ### 3. Distributed Computing with Spark SQL
 ### 4. SQL for Data Science Capstone Project
 
 ## Extras
-[Preformat Code](https://www.poorsql.com/)
+- [Preformat Code](https://www.poorsql.com/)
+- [SQL Tutorial](https://www.1keydata.com/sql/sql.html)
+- [Mode Analytics](https://mode.com/)
+
+### Coursera Related
+- [Coursera's Learner Support/Help Center](https://learner.coursera.help/hc/en-us)
+- [Flagging a Lecture](https://learner.coursera.help/hc/en-us/articles/208280106-Report-a-problem-with-a-course)
+- [Switching to a New Session](https://learner.coursera.help/hc/en-us/articles/208279776-Switch-to-a-different-session)
+- [Peer Reviewed Assignments](https://learner.coursera.help/hc/en-us/sections/201895903-Peer-reviewed-assignments)
+- [Coursera's Honor Code](https://learner.coursera.help/hc/en-us/articles/209818863-Coursera-Honor-Code)

@@ -16,7 +16,7 @@
 - tip table = 10000
 - user table = 10000
 
-```
+```SQL
 SELECT COUNT(*)
 FROM [table]
 ```
@@ -38,7 +38,7 @@ FROM [table]
 
 Note: Primary Keys are denoted in the ER-Diagram with a yellow key icon.
 
-```
+```SQL
 SELECT COUNT(DISTINCT [primary_key])
 FROM [Table]
 ```
@@ -48,7 +48,7 @@ FROM [Table]
 	Answer: No
 	SQL code used to arrive at answer:
 
-```
+```SQL
 SELECT *
 FROM user
 WHERE
@@ -101,7 +101,7 @@ WHERE
 	
 		min: 0		max: 2000	avg: 24.2995
 
-```
+```SQL
 SELECT MIN([column_name]), MAX([column_name]), AVG([column_name])
 FROM [Table]
 ```
@@ -110,14 +110,14 @@ FROM [Table]
 5. List the cities with the most reviews in descending order:
 
 	SQL code used to arrive at answer:
-```
+```SQL
 SELECT city, review_count
 FROM business
 GROUP BY city
 ORDER BY review_count DESCC
 ```
-	
-	Copy and Paste the Result Below:
+
+Copy and Paste the Result Below:
 
 ```
 +------------------------+--------------+
@@ -171,7 +171,7 @@ i. Avon
 
 SQL code used to arrive at answer:
 
-```
+```SQL
 SELECT stars, COUNT(stars)
 FROM business
 WHERE city = 'Avon'
@@ -185,7 +185,7 @@ ii. Beachwood
 
 SQL code used to arrive at answer:
 
-```
+```SQL
 SELECT stars, COUNT(stars)
 FROM business
 WHERE city = 'Beachwood'
@@ -212,14 +212,14 @@ Copy and Paste the Resulting Table Below (2 columns â€“ star rating and cou
 		
 	SQL code used to arrive at answer:
 
-```
+```SQL
 SELECT name, review_count
 FROM user
 ORDER BY review_count DESC
 LIMIT 3
 ```
-		
-	Copy and Paste the Result Below:
+
+Copy and Paste the Result Below:
 
 ```
 +--------+--------------+
@@ -234,7 +234,7 @@ LIMIT 3
 
 8. Does posing more reviews correlate with more fans?
 
-	Please explain your findings and interpretation of the results:
+Please explain your findings and interpretation of the results:
 
 No. Even if there is a downward trendd for fans field, the same does not happen with review count, so there is no correlation between fans an review count.
 
@@ -279,7 +279,7 @@ Results
 	
 	SQL code used to arrive at answer:
 
-```
+```SQL
 SELECT
     COUNT(l.text) AS love_count
     , (SELECT COUNT(h.text)
@@ -298,7 +298,7 @@ WHERE l.text LIKE '%love%'
 
 	SQL code used to arrive at answer:
 
-```
+```SQL
 SELECT name, fans
 FROM user
 ORDER BY fans DESC
@@ -323,7 +323,7 @@ LIMIT 3
 1. Pick one city and category of your choice and group the businesses in that city or category by their overall star rating. Compare the businesses with 2-3 stars to the businesses with 4-5 stars and answer the following questions. Include your code.
 
 To select the city with more than 2 businesses:
-```
+```SQL
 SELECT
     b.city
     ,COUNT(DISTINCT b.id) AS business_count
@@ -351,7 +351,7 @@ There is no correlation between average opening days and number of reviews.
 
 SQL code used for analysis:
 
-```
+```SQL
 SELECT
     '2 to 3' AS stars_range
     , COUNT(DISTINCT b.name) AS business_count
@@ -399,7 +399,7 @@ Businesses have more reviews if they are open.
 
 SQL code used for analysis:
 
-```
+```SQL
 SELECT
     is_open
     , COUNT(DISTINCT id) AS business_count
@@ -457,7 +457,7 @@ iii. Output of your finished dataset:
 
 iv. Provide the SQL code you used to create your final dataset:
 
-```
+```SQL
 SELECT
     state
     , SUM(review_count) AS reviews_per_state
