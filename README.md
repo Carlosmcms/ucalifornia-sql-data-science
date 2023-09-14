@@ -3,6 +3,8 @@ Coursera - University of California Course: SQL Basics for Data Science.
 
 Quices in this specialization are based on the [Chinook Database](https://www.sqlitetutorial.net/sqlite-sample-database/) with its respective [ER Diagram](https://ucde-rey.s3.amazonaws.com/DSV1015/ChinookDatabaseSchema.png) unless any other database is specified.
 
+Another database schema considered here is the [Mode Analytics dsv1069](https://modeanalytics.com/) for a simulated environment.
+
 ## Courses
 ### 1. SQL for Data Science
 1.1. SQL Overview
@@ -51,6 +53,8 @@ Quices in this specialization are based on the [Chinook Database](https://www.sq
 
 1.1. Course Introduction
 - [Connecting to Mode Analytics](https://d3c33hcgiwev3.cloudfront.net/rVHlpgvsQGGrp5Dl7D5zgQ_b7c2ae781f0a438fb9c09fd4416cbaf1_Connecting-to-Mode-Analytics---Updated.pdf?Expires=1693440000&Signature=EuYRNBnVXNcfGY8tLGF-LKLU-9o-1H5UtttpQXPzFMbuWCzuhObcCOXY~DcHYLa5BpQhxgDeS561KbnvUgZnPgtkYIFz5ab9AIdQf3NJrWZi~MdwlAfY4sNy~Bn~chCy5TACeEYQ3LiewSs4zN6ZPz5XLkhUgkmLODvLcMM4jUc_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+- [What's the difference between SQL and MySQL?](https://www.quora.com/Whats-the-difference-between-SQL-and-MySQL)
+- [Difference among Data Analyst, Data Scientist and Data Engineer](https://www.dataquest.io/blog/data-analyst-data-scientist-data-engineer/)
 
 ### 3. Distributed Computing with Spark SQL
 ### 4. SQL for Data Science Capstone Project
@@ -59,6 +63,11 @@ Quices in this specialization are based on the [Chinook Database](https://www.sq
 - [Preformat Code](https://www.poorsql.com/)
 - [SQL Tutorial](https://www.1keydata.com/sql/sql.html)
 - [Mode Analytics](https://mode.com/)
+
+### SQL Details
+- [Sequence & Nextval](https://www.commandprompt.com/education/what-does-the-nextval-function-do-in-postgresql/#:~:text=The%20nextval()%20is%20a,also%20store%20data%20on%20them.)
+- [Object Identifier](https://www.postgresql.org/docs/current/datatype-oid.html)
+- [ALTER vs UPDATE](https://techdifferences.com/difference-between-alter-and-update-command-in-sql.html)
 
 ### Coursera Related
 - [Coursera's Learner Support/Help Center](https://learner.coursera.help/hc/en-us)
