@@ -32,7 +32,7 @@ FROM
   dsv1069.users
 ```
 
-Get dates by full date, only the date, only the year
+## Get dates by full date, only the date, only the year.
 
 ```SQL
 SELECT
