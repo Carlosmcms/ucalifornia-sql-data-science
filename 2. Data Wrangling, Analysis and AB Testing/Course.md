@@ -47,3 +47,13 @@ GROUP BY
 ORDER BY
   event_date ASC
 ```
+
+```SQL
+SELECT
+  orders.item_category,
+  COUNT(DISTINCT COALESCE(parent_user_id, user_id)) AS users_with_orders
+FROM Orders
+JOIN Users
+  ON Users.id = orders.user_id
+GROUP BY orders.item_category
+```
